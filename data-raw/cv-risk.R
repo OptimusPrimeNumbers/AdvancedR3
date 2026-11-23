@@ -1,5 +1,5 @@
 usethis::use_data_raw("cv-risk")
-3cv_risk_path <- here::here("data", "cv-risk.csv")
+13cv_risk_path <- here::here("data", "cv-risk.csv")
 if (!fs::file_exists(cv_risk_path)) {
   download.file(
     "https://r-cubed-advanced.rostools.org/data/cv-risk.csv",
